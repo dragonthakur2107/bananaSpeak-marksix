@@ -22,7 +22,6 @@ function dothis(){
     .then(json => {
             var translatedTxt = json.contents.translated;
             outputDiv.innerText = translatedTxt;
-            console.log(outputDiv.innerText)
         })
     .catch(errorHandler)       
 };
