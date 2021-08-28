@@ -13,8 +13,7 @@ function getTranslationURL(text){
 function errorHandler(error){
      console.log("error occured",error);
      alert("Something went wrong");
-} 
-
+}
 function dothis(){
     var inputTxt = txtInput.value; 
     fetch(getTranslationURL(inputTxt))
